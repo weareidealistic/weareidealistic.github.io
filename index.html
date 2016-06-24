@@ -35,9 +35,9 @@
             <h1 class="text-hide site-logo">Idealistic</h1>
             <nav>
                 <ul class="site-header-nav clearfix">
-                    <li><a href="#company">Company</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#company" data-scroll>Company</a></li>
+                    <li><a href="#product" data-scroll>Product</a></li>
+                    <li><a href="#contact" data-scroll>Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,12 +48,12 @@
             <div class="container">
                 <h2 class="text-shadow">We are<br>Idealistic</h2>
                 <div class="skip-link-container">
-                    <a href="#we-create" class="skip-link">Find out more about us<br><i class="material-icons">&#xE5CF;</i></a>
+                    <a href="#we-create" class="skip-link" data-scroll>Find out more about us<br><i class="material-icons">&#xE5CF;</i></a>
                 </div>
             </div>
         </div>
 
-        <div id="we-create" class="feature bg-alt text-only">
+        <div id="we-create" class="feature bg-alt text-only" data-scroll>
             <div class="container">
                 <div class="feature-text">
                     <h3 class="h4">We create software<br>that we've been dreaming of</h3>
@@ -79,10 +79,10 @@
             <div class="container">
                 <div class="feature-text">
                     <h3 class="sr-only">What are we working on?</h3>
-                    <p>Right now we are busy building our first product &ndash; <a href="#product">ArtVibe</a>. It's an online
+                    <p>Right now we are busy building our first product &ndash; <a href="#product" data-scroll>ArtVibe</a>. It's an online
                         platform that helps theatre lovers to stay closer to their favorite theatres and theatre creatives.
                         If you live in Bulgaria and you are passionate about theatre &ndash; like we are &ndash;
-                        <a href="#product">ArtVibe</a> is just for you.</p>
+                        <a href="#product" data-scroll>ArtVibe</a> is just for you.</p>
                 </div>
             </div>
         </div>
@@ -92,13 +92,13 @@
         <div class="feature product-hero">
             <div class="container">
                 <h2>Introducing ArtVibe</h2>
-                <p class="lead">ArtVibe is an online platform for <a href="#theatre-lovers">theatre lovers</a>, <a href="#theatres-and-creatives">theatres</a>                    and <a href="#theatres-and-creatives">theatre creatives</a> in Bulgaria.</p>
+                <p class="lead">ArtVibe is an online platform for <a href="#theatre-lovers" data-scroll>theatre lovers</a>, <a href="#theatres-and-creatives" data-scroll>theatres</a>                    and <a href="#theatres-and-creatives" data-scroll>theatre creatives</a> in Bulgaria.</p>
                 <img src="images/artvibe/hero.png" class="img-responsive" alt="">
                 <p class="credit">Pictured: Production profile page for <em>Hamlet</em>, Ivan Vazov National Theatre. Poster, photos and synopsis
                     courtesy of the <a href="http://nationaltheatre.bg" target="_blank">Ivan Vazov National Theatre</a>.</p>
                 <!--<p><a href="http://artvibe.bg" target="_blank" class="btn btn-primary">Go to artvibe.bg</a><a id="learn-more-link"
                         class="btn-like-link" href="#theatre-lovers">Learn more</a></p>-->
-                <p><a href="#theatre-lovers" class="skip-link">Learn more<br><i class="material-icons">&#xE5CF;</i></a></p>
+                <p><a href="#theatre-lovers" class="skip-link" data-scroll>Learn more<br><i class="material-icons">&#xE5CF;</i></a></p>
             </div>
         </div>
 
@@ -116,7 +116,7 @@
                         </p>
                         <p>ArtVibe is optimized for any device &ndash; from desktop through laptop and tablet to smartphone
                             &ndash; so it's always with you.</p>
-                        <p class="product-nav"><a href="#whats-on" class="skip-link">Explore the features<br><i class="material-icons">&#xE5CF;</i></a></p>
+                        <p class="product-nav"><a href="#whats-on" class="skip-link" data-scroll>Explore the features<br><i class="material-icons">&#xE5CF;</i></a></p>
                     </div>
                 </div>
             </div>
@@ -350,7 +350,7 @@
                 <div class="container">
                     <div class="feature-text">
                         <h4>Let's get started</h4>
-                        <p><a href="#contact">Contact us</a> right now to discuss how to get you on ArtVibe quickly and easily.</p>
+                        <p><a href="#contact" data-scroll>Contact us</a> right now to discuss how to get you on ArtVibe quickly and easily.</p>
                     </div>
                 </div>
             </div>
@@ -386,9 +386,9 @@
         <div class="container">
             <nav>
                 <ul class="list-inline footer-nav">
-                    <li><a href="#company">Company</a></li>
-                    <li><a href="#product">Product</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#company" data-scroll>Company</a></li>
+                    <li><a href="#product" data-scroll>Product</a></li>
+                    <li><a href="#contact" data-scroll>Contact</a></li>
                 </ul>
             </nav>
             <p>Copyright &copy; 2016 Idealistic</p>
@@ -401,6 +401,8 @@
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>smoothScroll.init({updateURL: true});</script>
     <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 </body>
